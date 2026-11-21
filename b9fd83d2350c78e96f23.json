@@ -1,0 +1,14 @@
+{
+ "version": 1,
+ "equipo": "BJC",
+ "categoria": "CADETE MASCULINO",
+ "fecha": "2026-11-21",
+ "local": "ADC San Fermin",
+ "visitante": "BJC",
+ "tanteoLocal": 31,
+ "tanteoVisitante": 58,
+ "texto": "El partido entre el ADC San Fermin y el BJC comenzó con un ritmo intenso, ya que en el primer cuarto el marcador se mantuvo muy igualado, terminando con un resultado de 8-10 a favor de los visitantes. En el segundo cuarto, el BJC empezó a tomar el control del partido, anotando 14 puntos frente a los 4 del ADC San Fermin, lo que les permitió ampliar su ventaja a 12-24.\n\nLa verdadera diferencia se produjo en el tercer cuarto, cuando el BJC anotó 20 puntos seguidos sin respuesta, pasando de 18-28 a 18-48. Este período de dominio total les dio una ventaja de 28 puntos al final del tercer cuarto, con un marcador de 20-48. En este cuarto, {V13} y {V78} anotaron sendos triples que ayudaron a aumentar la diferencia.\n\nAunque en el último cuarto el ADC San Fermin intentó recortar distancias, anotando 11 puntos, el BJC también anotó 10, lo que mantuvo su amplia ventaja. {V33} anotó un triple en este cuarto. Los jugadores del ADC San Fermin, como {L5} con 15 puntos, {L11} con 8 puntos y {L23} con 8 puntos, intentaron llevar a su equipo a la victoria, pero la diferencia era demasiado grande. Finalmente, el resultado final fue de 31-58 a favor del BJC.",
+ "origen": "ia",
+ "modelo": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+ "generada": "2026-11-21T14:16:36+00:00"
+}
