@@ -13,6 +13,7 @@ en esa página, en *Assets*, el archivo `jdm-baloncesto-vX.Y.Z.apk`.
   ganador en verde.
 - **Avisos** cuando cambia la hora o el pabellón de un partido, cuando se anula o cuando hay resultado,
   y recordatorios la víspera y un rato antes de cada partido (en tu calendario o, si no lo usas, como notificación).
+- **Camisetas** con el color de cada equipo (el del acta del partido en cuanto la mesa lo apunta).
 - **Marcador en directo** durante el partido: tanteo, cuarto, tiempo, jugadas, puntos de cada jugador,
   faltas (con aviso de jugadores con 4 o 5 faltas y de bonus) y tiros libres.
 - **Retransmisión** del partido y grabación, cuando el Ayuntamiento lo emite (pabellón de Las Cruces).
