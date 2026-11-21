@@ -9,7 +9,8 @@ en esa página, en *Assets*, el archivo `jdm-baloncesto-vX.Y.Z.apk`.
 
 ## Qué hace
 
-- **Próximos partidos y resultados** del equipo: fecha, hora, pabellón y botón «Cómo llegar».
+- **Próximos partidos** del equipo (fecha, hora, pabellón, «Cómo llegar») y pestaña **Resultados**, con el
+  ganador en verde.
 - **Avisos** cuando cambia la hora o el pabellón de un partido, cuando se anula o cuando hay resultado,
   y un resumen los viernes de los partidos del fin de semana.
 - **Marcador en directo** durante el partido: tanteo, cuarto, tiempo, jugadas, puntos de cada jugador,
@@ -18,7 +19,7 @@ en esa página, en *Assets*, el archivo `jdm-baloncesto-vX.Y.Z.apk`.
 - **🎙️ Crónica** de cada partido poco después de terminar: para leer, escuchar con la voz del móvil y
   compartir por WhatsApp.
 - **Clasificación** al día (con los resultados de la Federación) y la oficial del Ayuntamiento.
-- **Calendario** opcional: puede crear un evento por partido en un calendario del móvil.
+- **Calendario** opcional: un evento por partido en tu calendario.
 - **Se actualiza sola**: cuando hay versión nueva, la app lo avisa y se instala con dos toques.
 
 | Inicio | Marcador en directo | Crónica | Clasificación |
@@ -36,7 +37,8 @@ La app no está en Google Play: se instala con el archivo APK.
    *Archivos*, actívalo y vuelve atrás.
 4. Si **Google Play Protect** avisa de que es una app desconocida, toca **Más detalles → Instalar de
    todos modos**. Sale porque la app no viene de Google Play y la usan pocas personas.
-5. Abre la app y sigue los pasos de bienvenida.
+5. Abre la app y sigue los pasos de bienvenida: elige tu equipo (por distrito, categoría y nombre) y si
+   quieres los partidos en tu calendario.
 
 **Móviles con Family Link (control parental):** el padre o la madre tiene que permitir la instalación
 desde la app Family Link de su móvil (*Controles → Apps*), o instalarla desde el móvil del menor con
@@ -44,12 +46,10 @@ el permiso del adulto.
 
 ## El calendario
 
-Si ya estás suscrito al **calendario compartido del equipo** (te lo habrá pasado otro padre por enlace),
-no necesitas que la app escriba en ningún calendario: en la bienvenida, o en *Ajustes → Calendario*,
-marca **«No usar calendario»**. Seguirás recibiendo los avisos, el marcador y las crónicas.
-
-Si la app escribe en un calendario, que sea solo **un móvil por calendario**: si dos móviles con la app
-escriben en el mismo calendario compartido, se pisan los eventos.
+Si quieres, la app guarda cada partido como un evento en **tu** calendario: el de tu cuenta de Google (lo
+verás también en el ordenador) o uno solo del móvil. Los cambios de hora o pabellón se actualizan solos.
+Si no lo quieres, marca **«No usar calendario»** al instalarla o en *Ajustes → Calendario*: seguirás
+recibiendo los avisos, el marcador y las crónicas.
 
 ## Batería
 
@@ -70,12 +70,12 @@ se despierta unos segundos al día; no gasta batería apreciable.
 
 ## Preguntas frecuentes
 
-**¿Qué equipo sigue?** El que elijas en *Ajustes → Equipo* (por defecto, BJC cadete masculino de Latina).
+**¿Qué equipo sigue?** El que elijas al instalarla (se cambia en *Ajustes → Equipo*).
 Las crónicas solo se escriben para los equipos que tiene configurados el autor: si quieres la de otro
 equipo, pídeselo.
 
 **No me llega la crónica.** Se escribe en cuanto la Federación da el partido por terminado y la app la
-busca cada 10 minutos después del partido. En *Resultados*, el botón 🎙️ del partido y *Buscar ahora*.
+busca cada 10 minutos después del partido. En la pestaña *Resultados*, el botón 🎙️ del partido y *Buscar ahora*.
 
 **La clasificación «Oficial» no tiene el último partido.** El Ayuntamiento la publica una vez por semana.
 Usa «Al día (FBM)».
