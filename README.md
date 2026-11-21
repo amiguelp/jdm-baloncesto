@@ -22,9 +22,9 @@ en esa página, en *Assets*, el archivo `jdm-baloncesto-vX.Y.Z.apk`.
 - **Calendario** opcional: un evento por partido en tu calendario.
 - **Se actualiza sola**: cuando hay versión nueva, la app lo avisa y se instala con dos toques.
 
-| Inicio | Marcador en directo | Crónica | Clasificación |
-|---|---|---|---|
-| <img src="capturas/2_inicio.png" width="200"> | <img src="capturas/12_marcador_directo.png" width="200"> | <img src="capturas/11_cronica.png" width="200"> | <img src="capturas/3_clasificacion.png" width="200"> |
+| Inicio | Resultados | Marcador en directo | Crónica | Clasificación |
+|---|---|---|---|---|
+| <img src="capturas/2_inicio.png" width="160"> | <img src="capturas/2b_resultados.png" width="160"> | <img src="capturas/12_marcador_directo.png" width="160"> | <img src="capturas/11_cronica.png" width="160"> | <img src="capturas/3_clasificacion.png" width="160"> |
 
 ## Cómo instalarla
 
