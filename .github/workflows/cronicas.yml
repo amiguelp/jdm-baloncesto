@@ -1,0 +1,86 @@
+# Crónicas de los partidos: cada hora (y vigilando el partido mientras se juega) escribe con IA la crónica
+# de los partidos terminados de los equipos de scripts/cronica/equipos.json (en el repositorio privado del
+# código) y la publica en la rama «cronicas» de este repositorio, de donde la descargan las apps.
+# Sin nombres de jugadores: solo dorsales; cada móvil pone los nombres.
+# Secrets: CODIGO_DEPLOY_KEY, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN.
+name: Crónicas
+on:
+  schedule:
+    - cron: '17 8-22 * * *'   # cada hora de 9 a 23 (hora de Madrid en invierno)
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: 'Volver a escribir las crónicas de este día (AAAA-MM-DD). Vacío: solo las nuevas.'
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: cronicas
+jobs:
+  cronicas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: ¿Configurado?
+        id: listo
+        env:
+          CLAVE: ${{ secrets.CODIGO_DEPLOY_KEY }}
+        run: |
+          if [ -z "$CLAVE" ]; then echo "::warning::Falta el secret CODIGO_DEPLOY_KEY"; echo "ok=false" >> "$GITHUB_OUTPUT"
+          else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/checkout@v7
+        if: steps.listo.outputs.ok == 'true'
+
+      - name: Código de las crónicas (repositorio privado)
+        if: steps.listo.outputs.ok == 'true'
+        uses: actions/checkout@v7
+        with:
+          repository: amiguelp/jdm-baloncesto-codigo
+          ssh-key: ${{ secrets.CODIGO_DEPLOY_KEY }}
+          path: codigo
+
+      - name: Pruebas
+        if: steps.listo.outputs.ok == 'true'
+        working-directory: codigo/scripts/cronica
+        run: python3 -m unittest -q test_cronica
+
+      - name: Rama de crónicas
+        if: steps.listo.outputs.ok == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git ls-remote --exit-code --heads origin cronicas; then
+            # Primera vez: se traen las crónicas ya escritas en el repositorio del código (si las hay)
+            if git -C codigo fetch -q origin cronicas:cronicas 2>/dev/null; then
+              git fetch -q ./codigo cronicas:cronicas && git push -q origin cronicas
+            fi
+          fi
+          if git ls-remote --exit-code --heads origin cronicas; then
+            git fetch -q --depth=1 origin cronicas
+            git worktree add -B cronicas salida origin/cronicas
+          else
+            git worktree add --orphan -b cronicas salida
+          fi
+
+      - name: Escribir crónicas
+        if: steps.listo.outputs.ok == 'true'
+        env:
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          FECHA: ${{ inputs.fecha }}
+        run: |
+          if [ -n "$FECHA" ]; then
+            python3 codigo/scripts/cronica/generar.py salida --publicar --forzar "$FECHA"
+          else
+            python3 codigo/scripts/cronica/generar.py salida --publicar
+          fi
+
+      - name: Publicar
+        if: steps.listo.outputs.ok == 'true'
+        working-directory: salida
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "Nada nuevo"; exit 0; fi
+          git commit -m "Crónicas $(date -u +%Y-%m-%dT%H:%M)"
+          git push origin cronicas

@@ -1,0 +1,108 @@
+# Publica una versión para los padres: compila el código del repositorio PRIVADO en la etiqueta vX.Y.Z
+# (creada por su workflow «Versión de pruebas»), pasa los tests y crea aquí la Release con el APK y
+# update.json, de donde las apps se actualizan solas.
+# Actions → Publicar versión → Run workflow → versión X.Y.Z.
+# Secrets: CODIGO_DEPLOY_KEY (clave de solo lectura del repositorio privado) y los 4 de la firma.
+name: Publicar versión
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Versión ya probada (X.Y.Z)"
+        required: true
+      notas:
+        description: "Notas para los padres (opcional; si no, las de CHANGELOG.md del código)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+env:
+  CODIGO: amiguelp/jdm-baloncesto-codigo
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Versión
+        id: version
+        env:
+          INPUT_VERSION: ${{ inputs.version }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${INPUT_VERSION#v}"
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]{1,2}\.[0-9]{1,2}$ ]] || { echo "::error::Versión X.Y.Z, no $INPUT_VERSION"; exit 1; }
+          if gh release view "v$VERSION" >/dev/null 2>&1; then echo "::error::v$VERSION ya está publicada"; exit 1; fi
+          IFS=. read -r X Y Z <<< "$VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "code=$(( X * 10000 + 10#$Y * 100 + 10#$Z ))" >> "$GITHUB_OUTPUT"
+
+      - name: Código (repositorio privado, etiqueta de la versión de pruebas)
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.CODIGO }}
+          ref: v${{ steps.version.outputs.version }}
+          ssh-key: ${{ secrets.CODIGO_DEPLOY_KEY }}
+          path: codigo
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - uses: gradle/actions/setup-gradle@v6
+
+      - name: Keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.JDM_KEYSTORE_BASE64 }}
+        run: |
+          [ -n "$KEYSTORE_BASE64" ] || { echo "::error::Falta el secret JDM_KEYSTORE_BASE64"; exit 1; }
+          echo "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/jdm.jks"
+          echo "JDM_KEYSTORE_PATH=$RUNNER_TEMP/jdm.jks" >> "$GITHUB_ENV"
+
+      - name: Tests
+        working-directory: codigo
+        run: ./gradlew --no-configuration-cache -q testProduccionDebugUnitTest
+
+      - name: Compilar la app de los padres
+        working-directory: codigo
+        env:
+          JDM_KEYSTORE_PASSWORD: ${{ secrets.JDM_KEYSTORE_PASSWORD }}
+          JDM_KEY_ALIAS: ${{ secrets.JDM_KEY_ALIAS }}
+          JDM_KEY_PASSWORD: ${{ secrets.JDM_KEY_PASSWORD }}
+        run: |
+          ./gradlew --no-configuration-cache -q assembleProduccionRelease \
+            -PversionName="${{ steps.version.outputs.version }}" -PrepoPublico="$GITHUB_REPOSITORY"
+          APK="jdm-baloncesto-v${{ steps.version.outputs.version }}.apk"
+          cp app/build/outputs/apk/produccion/release/app-produccion-release.apk "../$APK"
+          APKSIGNER="$(ls -d "$ANDROID_HOME"/build-tools/*/ | sort -V | tail -1)apksigner"
+          "$APKSIGNER" verify --print-certs "../$APK" | head -2
+          echo "APK=$APK" >> "$GITHUB_ENV"
+
+      - name: Notas y update.json
+        env:
+          NOTAS: ${{ inputs.notas }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if [ -n "$NOTAS" ]; then printf '%s\n' "$NOTAS" > notas.md; else
+            awk -v v="$VERSION" '/^## / { if (dentro) exit; if ($0 ~ "^## \\[?v?" v "\\]?([ ].*)?$") { dentro=1; next } } dentro { print }' codigo/CHANGELOG.md > notas.md
+          fi
+          [ -s notas.md ] || echo "Versión $VERSION" > notas.md
+          SHA=$(sha256sum "$APK" | cut -d' ' -f1)
+          jq -n --argjson versionCode "${{ steps.version.outputs.code }}" --arg versionName "$VERSION" \
+            --arg apkUrl "https://github.com/${GITHUB_REPOSITORY}/releases/download/v$VERSION/$APK" \
+            --arg sha256 "$SHA" --argjson size "$(stat -c%s "$APK")" --rawfile notes notas.md \
+            '{versionCode: $versionCode, versionName: $versionName, apkUrl: $apkUrl, sha256: $sha256, size: $size, notes: ($notes | gsub("^\\s+|\\s+$"; ""))}' \
+            > update.json
+          cat update.json
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: gh release create "v$VERSION" "$APK" update.json --title "v$VERSION" --notes-file notas.md --latest
