@@ -1,0 +1,14 @@
+{
+ "version": 1,
+ "equipo": "BJC",
+ "categoria": "CADETE MASCULINO",
+ "fecha": "2026-11-14",
+ "local": "BJC",
+ "visitante": "La Torre de Hortaleza Azul",
+ "tanteoLocal": 63,
+ "tanteoVisitante": 10,
+ "texto": "El partido entre el BJC y La Torre de Hortaleza Azul fue un encuentro muy desequilibrado desde el principio. En el primer cuarto, el BJC dominó completamente, anotando 6 puntos sin que el equipo visitante pudiera responder. Esta tendencia se mantuvo a lo largo del partido, con el BJC aumentando su ventaja cuarto tras cuarto.\n\nEn el segundo cuarto, {L31} anotó un triple que ayudó a establecer una diferencia significativa en el marcador. El BJC mostró una gran solidez en su juego, logrando una racha de 17 puntos seguidos sin que La Torre de Hortaleza Azul pudiera anotar, lo que les dio una ventaja importante desde el inicio. Al final del segundo cuarto, el marcador acumulado era de 27-3 a favor del BJC.\n\nLa Torre de Hortaleza Azul intentó responder, y en el tercer cuarto, {V6} anotó un triple, pero no fue suficiente para cambiar el curso del partido. El BJC continuó anotando y aumentando su ventaja, llegando a un máximo de 53 puntos de diferencia. Al final del cuarto, el marcador acumulado era de 44-6.\n\nEl resultado final fue de 63-10 a favor del BJC, demostrando su dominio absoluto en el partido. Los jugadores del BJC, como {L31} con 17 puntos, {L30} con 15 puntos, y otros, mostraron un gran desempeño. Por parte de La Torre de Hortaleza Azul, {V9} anotó 5 puntos, pero no fue suficiente para cambiar el resultado. En general, el partido fue una muestra de la sólida actuación del BJC en estos Juegos Deportivos Municipales de Madrid.",
+ "origen": "ia",
+ "modelo": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+ "generada": "2026-11-21T10:45:25+00:00"
+}
