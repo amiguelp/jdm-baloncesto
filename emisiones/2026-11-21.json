@@ -1,0 +1,902 @@
+[
+{
+"id": 2649,
+"local": "Mambo Tigers Fc",
+"visitante": "Perrones Fc",
+"titulo": "Mambo Tigers Fc vs Perrones Fc. Senior Masculino"
+},
+{
+"id": 2650,
+"local": "Buenas Tardes",
+"visitante": "Stanford Mouse",
+"titulo": "Buenas Tardes vs Stanford Mouse. Senior Masculino"
+},
+{
+"id": 2654,
+"local": "New Team C.F.",
+"visitante": "Bar A La Porra - Al-Ithas",
+"titulo": "New Team C.F. vs Bar A La Porra - Al-Ithas. Senior Masculino"
+},
+{
+"id": 2655,
+"local": "Ies Gran Capitan",
+"visitante": "Cd Lourdes Voley",
+"titulo": "Ies Gran Capitan vs Cd Lourdes Voley. Infantil Femenino"
+},
+{
+"id": 2656,
+"local": "Halcones Amarillo",
+"visitante": "Movistar Estudiantes Antonio Fontan Negro",
+"titulo": "Halcones Amarillo vs Movistar Estudiantes Antonio Fontan Negro. Benjamin Mixto"
+},
+{
+"id": 2657,
+"local": "Plata Y Castañar",
+"visitante": "Oe Juan De La Cierva",
+"titulo": "Plata Y Castañar vs Oe Juan De La Cierva. Benjamin Mixto"
+},
+{
+"id": 2658,
+"local": "C.B Navalcarnero",
+"visitante": "Cbc Basket",
+"titulo": "C.B Navalcarnero vs Cbc Basket. Alevin Mixto"
+},
+{
+"id": 2659,
+"local": "Pumas Amador De Los Rios Empd",
+"visitante": "Valdeluz 2016",
+"titulo": "Pumas Amador De Los Rios Empd vs Valdeluz 2016. Alevin Mixto"
+},
+{
+"id": 2660,
+"local": "Revolution Sma",
+"visitante": "Cde Escolapios Aluche",
+"titulo": "Revolution Sma vs Cde Escolapios Aluche. Alevin Mixto"
+},
+{
+"id": 2661,
+"local": "Amidecu Cad Masc",
+"visitante": "Asm Lancers",
+"titulo": "Amidecu Cad Masc vs Asm Lancers. Cadete Masculino"
+},
+{
+"id": 2662,
+"local": "Revolution Aluche Blanco",
+"visitante": "Cd Oroquieta Espinillo Negro",
+"titulo": "Revolution Aluche Blanco vs Cd Oroquieta Espinillo Negro. Infantil Masculino"
+},
+{
+"id": 2663,
+"local": "Margaret Thatcher - Alameda De Osuna",
+"visitante": "Irlandesas",
+"titulo": "Margaret Thatcher - Alameda De Osuna vs Irlandesas. Prebenjamin Mixto"
+},
+{
+"id": 2664,
+"local": "Madrid Villa De Vallecas Azul",
+"visitante": "Cde Vicálvaro Baloncesto",
+"titulo": "Madrid Villa De Vallecas Azul vs Cde Vicálvaro Baloncesto. Cadete Femenino"
+},
+{
+"id": 2665,
+"local": "Alvaro De Bazan Naranja - Aston F.S.",
+"visitante": "Cd Mario Reyes-La Presentación B",
+"titulo": "Alvaro De Bazan Naranja - Aston F.S. vs Cd Mario Reyes-La Presentación B. Alevin Mixto"
+},
+{
+"id": 2666,
+"local": "Senara",
+"visitante": "Gsd Las Suertes",
+"titulo": "Senara vs Gsd Las Suertes. Infantil Femenino"
+},
+{
+"id": 2667,
+"local": "Ies Larra 1 Mxt",
+"visitante": "Nª Sra. Delicias",
+"titulo": "Ies Larra 1 Mxt vs Nª Sra. Delicias. Infantil Femenino"
+},
+{
+"id": 2668,
+"local": "A.D Perales Infantil Blanco",
+"visitante": "Cd Unión Vb Infantil Azul",
+"titulo": "A.D Perales Infantil Blanco vs Cd Unión Vb Infantil Azul. Infantil Femenino"
+},
+{
+"id": 2669,
+"local": "Obispo Perelló",
+"visitante": "Entrebasket Palomeras Bajas",
+"titulo": "Obispo Perelló vs Entrebasket Palomeras Bajas. Cadete Masculino"
+},
+{
+"id": 2670,
+"local": "Lobsters",
+"visitante": "Te Rento Raptors",
+"titulo": "Lobsters vs Te Rento Raptors. Senior Masculino"
+},
+{
+"id": 2672,
+"local": "Scuola Soi",
+"visitante": "Colegio San José",
+"titulo": "Scuola Soi vs Colegio San José. Infantil Femenino"
+},
+{
+"id": 2674,
+"local": "Valdeluz",
+"visitante": "Fundación Balia",
+"titulo": "Valdeluz vs Fundación Balia. Cadete Masculino"
+},
+{
+"id": 2676,
+"local": "Vallekas Basket",
+"visitante": "King'S College",
+"titulo": "Vallekas Basket vs King'S College. Cadete Masculino"
+},
+{
+"id": 2677,
+"local": "Sek",
+"visitante": "Ng Madrid",
+"titulo": "Sek vs Ng Madrid. Infantil Femenino"
+},
+{
+"id": 2679,
+"local": "Boadilla Monsters",
+"visitante": "Cd Lourdes Negro",
+"titulo": "Boadilla Monsters vs Cd Lourdes Negro. Alevin Mixto"
+},
+{
+"id": 2680,
+"local": "Hastings",
+"visitante": "Boadilla Monsters",
+"titulo": "Hastings vs Boadilla Monsters. Juvenil Masculino"
+},
+{
+"id": 2681,
+"local": "Cadete Ies Las Musas",
+"visitante": "A.D. San Pascual Montpellier \"A\"",
+"titulo": "Cadete Ies Las Musas vs A.D. San Pascual Montpellier \"A\". Cadete Femenino"
+},
+{
+"id": 2682,
+"local": "Vp Madrid Blanco",
+"visitante": "Cd Union Vb Cadete Azul",
+"titulo": "Vp Madrid Blanco vs Cd Union Vb Cadete Azul . Cadete Femenino"
+},
+{
+"id": 2683,
+"local": "Vp Madrid",
+"visitante": "Club Voleibol Alcobendas",
+"titulo": "Vp Madrid vs Club Voleibol Alcobendas. Infantil Femenino"
+},
+{
+"id": 2684,
+"local": "Cd Newman A",
+"visitante": "Cd Unión Vb Infantil Blanco",
+"titulo": "Cd Newman A vs Cd Unión Vb Infantil Blanco. Infantil Femenino"
+},
+{
+"id": 2685,
+"local": "Plata Y Castañar",
+"visitante": "Oe Juan De La Cierva",
+"titulo": "Plata Y Castañar vs Oe Juan De La Cierva. Infantil Masculino"
+},
+{
+"id": 2686,
+"local": "Aldovea",
+"visitante": "Cde Baloncesto Dos Más Uno",
+"titulo": "Aldovea vs Cde Baloncesto Dos Más Uno. Cadete Masculino"
+},
+{
+"id": 2687,
+"local": "Inazuma Murcia F.C.",
+"visitante": "Recreativo De Juerga",
+"titulo": "Inazuma Murcia F.C. vs Recreativo De Juerga. Senior Masculino"
+},
+{
+"id": 2688,
+"local": "Juan De Valdes \"A\"",
+"visitante": "Cde Las Minas - Larra A",
+"titulo": "Juan De Valdes \"A\" vs Cde Las Minas - Larra A. Benjamin Mixto"
+},
+{
+"id": 2689,
+"local": "Trilema Safa",
+"visitante": "Cd Caldeiro",
+"titulo": "Trilema Safa vs Cd Caldeiro. Alevin Mixto"
+},
+{
+"id": 2690,
+"local": "La Repesca",
+"visitante": "Club Aguirre",
+"titulo": "La Repesca vs Club Aguirre. Senior Femenino"
+},
+{
+"id": 2693,
+"local": "Valverde",
+"visitante": "Club Voleibol Valdemoro Delta",
+"titulo": "Valverde vs Club Voleibol Valdemoro Delta. Cadete Femenino"
+},
+{
+"id": 2700,
+"local": "Los Solfachuzas",
+"visitante": "La Merced",
+"titulo": "Los Solfachuzas vs La Merced. Senior Masculino"
+},
+{
+"id": 2703,
+"local": "Santa Rita",
+"visitante": "C.D.E Parqure Pradolongo",
+"titulo": "Santa Rita vs C.D.E Parqure Pradolongo. Infantil Femenino"
+},
+{
+"id": 2704,
+"local": "Chamartín Vergara B",
+"visitante": "Colegio El Prado A",
+"titulo": "Chamartín Vergara B vs Colegio El Prado A. Infantil Masculino"
+},
+{
+"id": 2708,
+"local": "Comunidad Del Banquillo",
+"visitante": "Cabrini Veteranos",
+"titulo": "Comunidad Del Banquillo vs Cabrini Veteranos . Senior Masculino"
+},
+{
+"id": 2709,
+"local": "Revolution Aluche",
+"visitante": "Hastings",
+"titulo": "Revolution Aluche vs Hastings. Cadete Masculino"
+},
+{
+"id": 2712,
+"local": "Marcianos Fs",
+"visitante": "Internazionale Fs",
+"titulo": "Marcianos Fs vs Internazionale Fs. Senior Masculino"
+},
+{
+"id": 2713,
+"local": "Park Aveniu",
+"visitante": "Rebolledo",
+"titulo": "Park Aveniu vs Rebolledo. Senior Masculino"
+},
+{
+"id": 2714,
+"local": "Gooners Fc",
+"visitante": "Celta De Virgos",
+"titulo": "Gooners Fc vs Celta De Virgos. Senior Masculino"
+},
+{
+"id": 2715,
+"local": "Guerreros",
+"visitante": "Amigos Calabaza",
+"titulo": "Guerreros vs Amigos Calabaza. Senior Masculino"
+},
+{
+"id": 2717,
+"local": "Pachangas Cb",
+"visitante": "Súper Colegas Del Infierno",
+"titulo": "Pachangas Cb vs Súper Colegas Del Infierno. Senior Masculino"
+},
+{
+"id": 2719,
+"local": "Bjc A",
+"visitante": "Brewster Bobcats",
+"titulo": "Bjc A vs Brewster Bobcats. Infantil Masculino"
+},
+{
+"id": 2720,
+"local": "Cd Union Vb Cadete Blanco",
+"visitante": "Cd Union Vb Cadete Gris",
+"titulo": "Cd Union Vb Cadete Blanco  vs Cd Union Vb Cadete Gris . Cadete Femenino"
+},
+{
+"id": 2721,
+"local": "Macbell Arroyobasket",
+"visitante": "Club Aguirre",
+"titulo": "Macbell Arroyobasket vs Club Aguirre. Cadete Femenino"
+},
+{
+"id": 2725,
+"local": "Movistar Estudiantes Bfo-Smh",
+"visitante": "Escuela Barrio Del Pilar",
+"titulo": "Movistar Estudiantes Bfo-Smh vs Escuela Barrio Del Pilar. Infantil Masculino"
+},
+{
+"id": 2728,
+"local": "Sjp",
+"visitante": "Movistar Estudiantes Bfo",
+"titulo": "Sjp vs Movistar Estudiantes Bfo. Cadete Masculino"
+},
+{
+"id": 2729,
+"local": "Ab Villaviciosa De Odón",
+"visitante": "Asm Lancers",
+"titulo": "Ab Villaviciosa De Odón vs Asm Lancers. Infantil Femenino"
+},
+{
+"id": 2731,
+"local": "Arganzuela Centro 2014",
+"visitante": "C.B. Navalcarnero",
+"titulo": "Arganzuela Centro 2014 vs C.B. Navalcarnero. Infantil Masculino"
+},
+{
+"id": 2733,
+"local": "Liga Dominicana De Madrid",
+"visitante": "Efbm Fernando Martin A",
+"titulo": "Liga Dominicana De Madrid vs Efbm Fernando Martin A. Juvenil Masculino"
+},
+{
+"id": 2740,
+"local": "Ies Celestino Mutis",
+"visitante": "Cd Portugal",
+"titulo": "Ies Celestino Mutis vs Cd Portugal. Cadete Masculino"
+},
+{
+"id": 2742,
+"local": "Sporting Las Águilas Mercado De Las Águilas",
+"visitante": "Cd Oroquieta Espinillo",
+"titulo": "Sporting Las Águilas Mercado De Las Águilas vs Cd Oroquieta Espinillo. Infantil Femenino"
+},
+{
+"id": 2743,
+"local": "Racing Eva Perón",
+"visitante": "Cueva C.F.",
+"titulo": "Racing Eva Perón vs Cueva C.F.. Senior Masculino"
+},
+{
+"id": 2744,
+"local": "Cdv Vallecas",
+"visitante": "Club Voleibol Valdemoro Omega",
+"titulo": "Cdv Vallecas vs Club Voleibol Valdemoro Omega. Cadete Femenino"
+},
+{
+"id": 2746,
+"local": "Real Mlc Fs",
+"visitante": "Tituh Team",
+"titulo": "Real Mlc Fs vs Tituh Team. Senior Masculino"
+},
+{
+"id": 2747,
+"local": "Nazaret San Blas",
+"visitante": "A.D. San Pascual Montpellier \"B\"",
+"titulo": "Nazaret San Blas vs A.D. San Pascual Montpellier \"B\". Cadete Femenino"
+},
+{
+"id": 2748,
+"local": "Spínola Chamartín",
+"visitante": "Mater Salvatoris",
+"titulo": "Spínola Chamartín vs Mater Salvatoris. Cadete Femenino"
+},
+{
+"id": 2749,
+"local": "A.D. Nueva Castilla \"A\"",
+"visitante": "Ad Perales Alevin Negro",
+"titulo": "A.D. Nueva Castilla \"A\" vs Ad Perales Alevin Negro. Alevin Mixto"
+},
+{
+"id": 2751,
+"local": "Vp Madrid Negro",
+"visitante": "Cd Union Vb Azul",
+"titulo": "Vp Madrid Negro vs Cd Union Vb Azul . Juvenil Femenino"
+},
+{
+"id": 2755,
+"local": "Ciudad De Zaragoza - Almeda De Osuna",
+"visitante": "La Torre De Hortaleza Blanco",
+"titulo": "Ciudad De Zaragoza - Almeda De Osuna vs La Torre De Hortaleza Blanco. Prebenjamin Mixto"
+},
+{
+"id": 2756,
+"local": "Alvaro De Bazan Azul - Aston F.S.",
+"visitante": "Cd Mario Reyes-La Presentación",
+"titulo": "Alvaro De Bazan Azul - Aston F.S. vs Cd Mario Reyes-La Presentación. Alevin Mixto"
+},
+{
+"id": 2757,
+"local": "Stella Maris A",
+"visitante": "Arcángel B",
+"titulo": "Stella Maris A vs Arcángel B. Alevin Mixto"
+},
+{
+"id": 2758,
+"local": "Baloncesto Paracuellos Blanco",
+"visitante": "Baloncesto Paracuellos Azul",
+"titulo": "Baloncesto Paracuellos Blanco vs Baloncesto Paracuellos Azul. Alevin Mixto"
+},
+{
+"id": 2761,
+"local": "Airball",
+"visitante": "Cb Morata",
+"titulo": "Airball vs Cb Morata. Senior Masculino"
+},
+{
+"id": 2762,
+"local": "Os Coraçaos Da Tutta Frutta",
+"visitante": "Torrezno Raptors",
+"titulo": "Os Coraçaos Da Tutta Frutta vs Torrezno Raptors. Senior Masculino"
+},
+{
+"id": 2764,
+"local": "Santisimo Sacramento",
+"visitante": "Cv Plaza Castilla",
+"titulo": "Santisimo Sacramento vs Cv Plaza Castilla. Cadete Femenino"
+},
+{
+"id": 2765,
+"local": "Retamar",
+"visitante": "Cd Lourdes Negro",
+"titulo": "Retamar vs Cd Lourdes Negro. Cadete Masculino"
+},
+{
+"id": 2766,
+"local": "Cde Voleibol Hispano Usera",
+"visitante": "Adc San Fermin Rojo",
+"titulo": "Cde Voleibol Hispano Usera  vs Adc San Fermin Rojo. Cadete Femenino"
+},
+{
+"id": 2767,
+"local": "Las Rosas Granate",
+"visitante": "Cdv Vallecas",
+"titulo": "Las Rosas Granate vs Cdv Vallecas. Juvenil Femenino"
+},
+{
+"id": 2768,
+"local": "Escuela Barrio Del Pilar A",
+"visitante": "Colegio Mirasierra",
+"titulo": "Escuela Barrio Del Pilar A vs Colegio Mirasierra. Juvenil Femenino"
+},
+{
+"id": 2769,
+"local": "Kensington School Lions",
+"visitante": "Club Baloncesto Femenino Alcorcón Azul",
+"titulo": "Kensington School Lions vs Club Baloncesto Femenino Alcorcón Azul. Cadete Femenino"
+},
+{
+"id": 2770,
+"local": "Ad Perales Cadete Verde",
+"visitante": "Cd Newman B",
+"titulo": "Ad Perales Cadete Verde vs Cd Newman B. Cadete Femenino"
+},
+{
+"id": 2771,
+"local": "Estudiantes International School C",
+"visitante": "C.B. Pizarro Depencare Campus Ávila",
+"titulo": "Estudiantes International School C vs C.B. Pizarro Depencare Campus Ávila. Benjamin Mixto"
+},
+{
+"id": 2779,
+"local": "C.B. Pizarro Campus Ávila",
+"visitante": "Pumas Reina Victoria Empd",
+"titulo": "C.B. Pizarro Campus Ávila vs Pumas Reina Victoria Empd. Alevin Mixto"
+},
+{
+"id": 2780,
+"local": "Rc Santa Isabel B",
+"visitante": "Escuelas Aguirre 1",
+"titulo": "Rc Santa Isabel B vs Escuelas Aguirre 1. Alevin Mixto"
+},
+{
+"id": 2781,
+"local": "Vp Madrid Amarillo",
+"visitante": "Colegio Bristol 1",
+"titulo": "Vp Madrid Amarillo vs Colegio Bristol 1. Cadete Femenino"
+},
+{
+"id": 2782,
+"local": "Madrid Villa De Vallecas Azul",
+"visitante": "Cde Vicálvaro Baloncesto Negro",
+"titulo": "Madrid Villa De Vallecas Azul vs Cde Vicálvaro Baloncesto Negro. Infantil Femenino"
+},
+{
+"id": 2784,
+"local": "Ha Basket C",
+"visitante": "Cd Oroquieta Espinillo Rojo",
+"titulo": "Ha Basket C vs Cd Oroquieta Espinillo Rojo. Infantil Masculino"
+},
+{
+"id": 2785,
+"local": "Plaza Castilla",
+"visitante": "Ies Carlos Iii",
+"titulo": "Plaza Castilla  vs Ies Carlos Iii. Cadete Femenino"
+},
+{
+"id": 2786,
+"local": "Cde Extrasport Moratalaz",
+"visitante": "Cde Valdesanfer",
+"titulo": "Cde Extrasport Moratalaz vs Cde Valdesanfer. Infantil Femenino"
+},
+{
+"id": 2788,
+"local": "F.C. Blatska",
+"visitante": "Cd Inter Promesas",
+"titulo": "F.C. Blatska vs Cd Inter Promesas. Cadete Masculino"
+},
+{
+"id": 2789,
+"local": "Av Comillas Fs",
+"visitante": "Futsala Villaverde",
+"titulo": "Av Comillas Fs vs Futsala Villaverde. Infantil Masculino"
+},
+{
+"id": 2790,
+"local": "Stars Sport Madrid",
+"visitante": "Amidecu Gris Inf Ceb",
+"titulo": "Stars Sport Madrid vs Amidecu Gris Inf Ceb. Infantil Femenino"
+},
+{
+"id": 2791,
+"local": "Monstars",
+"visitante": "Bamiguetes",
+"titulo": "Monstars vs Bamiguetes. Senior Masculino"
+},
+{
+"id": 2792,
+"local": "101 Aerotransformada (Baloncesto)",
+"visitante": "Drink Team",
+"titulo": "101 Aerotransformada (Baloncesto) vs Drink Team. Senior Masculino"
+},
+{
+"id": 2793,
+"local": "Cde Las Minas - A",
+"visitante": "Cd Aston F.S.B",
+"titulo": "Cde Las Minas - A vs Cd Aston F.S.B. Cadete Masculino"
+},
+{
+"id": 2795,
+"local": "Los Stones",
+"visitante": "Sbc Pandas",
+"titulo": "Los Stones vs Sbc Pandas. Senior Masculino"
+},
+{
+"id": 2796,
+"local": "Movistar Estudiantes Negro",
+"visitante": "Cortes De Cádiz 2º",
+"titulo": "Movistar Estudiantes Negro vs Cortes De Cádiz 2º. Prebenjamin Mixto"
+},
+{
+"id": 2800,
+"local": "Gsd Vallecas A",
+"visitante": "Cv Getafe Naranja",
+"titulo": "Gsd Vallecas A vs Cv Getafe Naranja. Alevin Mixto"
+},
+{
+"id": 2801,
+"local": "Sta.Maria Del Bosque",
+"visitante": "J.Cierva Amidecu Inf",
+"titulo": "Sta.Maria Del Bosque vs J.Cierva Amidecu Inf. Infantil Femenino"
+},
+{
+"id": 2802,
+"local": "Revolution Blanco",
+"visitante": "Decasport - Villa De Leganes",
+"titulo": "Revolution Blanco vs Decasport - Villa De Leganes. Infantil Masculino"
+},
+{
+"id": 2806,
+"local": "Milan Gostino Fc",
+"visitante": "Bdeboxer",
+"titulo": "Milan Gostino Fc vs Bdeboxer. Senior Masculino"
+},
+{
+"id": 2807,
+"local": "Santísimo Sacramento",
+"visitante": "Cabrini Verde",
+"titulo": "Santísimo Sacramento vs Cabrini Verde. Prebenjamin Mixto"
+},
+{
+"id": 2808,
+"local": "Cd Loreto Madrid",
+"visitante": "Pumas Reina Victoria Empd",
+"titulo": "Cd Loreto Madrid vs Pumas Reina Victoria Empd. Benjamin Mixto"
+},
+{
+"id": 2810,
+"local": "Abaco Voleibol",
+"visitante": "Adc San Fermin",
+"titulo": "Abaco Voleibol vs Adc San Fermin. Infantil Femenino"
+},
+{
+"id": 2811,
+"local": "Distrito Olimpico Llorente",
+"visitante": "Basket Valdebebas",
+"titulo": "Distrito Olimpico Llorente vs Basket Valdebebas. Prebenjamin Mixto"
+},
+{
+"id": 2812,
+"local": "Las Ventas Bulls",
+"visitante": "Beer Mambas",
+"titulo": "Las Ventas Bulls vs Beer Mambas. Senior Masculino"
+},
+{
+"id": 2815,
+"local": "Voleibol Arganda",
+"visitante": "Gsd Las Artes",
+"titulo": "Voleibol Arganda vs Gsd Las Artes. Cadete Femenino"
+},
+{
+"id": 2816,
+"local": "San Blas Reds",
+"visitante": "Impasible",
+"titulo": "San Blas Reds vs Impasible. Senior Masculino"
+},
+{
+"id": 2817,
+"local": "Real Canoe N.C. Daoiz Y Velarde",
+"visitante": "Fuhem Montserrat",
+"titulo": "Real Canoe N.C. Daoiz Y Velarde vs Fuhem Montserrat. Alevin Mixto"
+},
+{
+"id": 2821,
+"local": "Cocretas",
+"visitante": "Los Sapos Del Aparejador",
+"titulo": "Cocretas vs Los Sapos Del Aparejador. Senior Masculino"
+},
+{
+"id": 2822,
+"local": "C.D. Cdt",
+"visitante": "Club Paisa",
+"titulo": "C.D. Cdt vs Club Paisa. Senior Masculino"
+},
+{
+"id": 2824,
+"local": "Vp Madrid Negro",
+"visitante": "Colegio Bristol 2",
+"titulo": "Vp Madrid Negro vs Colegio Bristol 2. Cadete Femenino"
+},
+{
+"id": 2825,
+"local": "Retamar",
+"visitante": "Cb Orcasitas",
+"titulo": "Retamar vs Cb Orcasitas. Infantil Masculino"
+},
+{
+"id": 2826,
+"local": "Stella Maris",
+"visitante": "Cb Ensanche De Vallecas",
+"titulo": "Stella Maris vs Cb Ensanche De Vallecas. Infantil Masculino"
+},
+{
+"id": 2827,
+"local": "Ies Miguel Delibes",
+"visitante": "Gsd Valdebebas",
+"titulo": "Ies Miguel Delibes vs Gsd Valdebebas. Cadete Femenino"
+},
+{
+"id": 2828,
+"local": "Nsdolores",
+"visitante": "Santa María Del Bosque",
+"titulo": "Nsdolores vs Santa María Del Bosque. Infantil Masculino"
+},
+{
+"id": 2829,
+"local": "A. D. Nueva Castilla",
+"visitante": "Adc San Fermin",
+"titulo": "A. D. Nueva Castilla vs Adc San Fermin. Infantil Masculino"
+},
+{
+"id": 2832,
+"local": "C.D.Hispanidad",
+"visitante": "Cd Newman A",
+"titulo": "C.D.Hispanidad vs Cd Newman A. Cadete Femenino"
+},
+{
+"id": 2834,
+"local": "Adc San Fermin",
+"visitante": "Bjc",
+"titulo": "Adc San Fermin vs Bjc. Cadete Masculino"
+},
+{
+"id": 2839,
+"local": "Club Deportivo Nsa Nolasco",
+"visitante": "Futsala Villaverde",
+"titulo": "Club Deportivo Nsa Nolasco vs Futsala Villaverde. Benjamin Mixto"
+},
+{
+"id": 2841,
+"local": "Las Nieves",
+"visitante": "Chv1995 San Blas",
+"titulo": "Las Nieves vs Chv1995 San Blas. Cadete Femenino"
+},
+{
+"id": 2842,
+"local": "Efbm Fernando Martin",
+"visitante": "Escuela Barrio Del Pilar",
+"titulo": "Efbm Fernando Martin vs Escuela Barrio Del Pilar. Infantil Femenino"
+},
+{
+"id": 2843,
+"local": "Manzanares Azul",
+"visitante": "Beata María Ana De Jesús",
+"titulo": "Manzanares Azul vs Beata María Ana De Jesús. Infantil Femenino"
+},
+{
+"id": 2844,
+"local": "Revolution Negro",
+"visitante": "Decasport - Villa De Leganes",
+"titulo": "Revolution Negro vs Decasport - Villa De Leganes. Infantil Femenino"
+},
+{
+"id": 2845,
+"local": "Asm Lancers",
+"visitante": "Bjc A",
+"titulo": "Asm Lancers vs Bjc A. Juvenil Masculino"
+},
+{
+"id": 2846,
+"local": "Av Pradera",
+"visitante": "Cd Mater Purissima",
+"titulo": "Av Pradera vs Cd Mater Purissima. Infantil Masculino"
+},
+{
+"id": 2847,
+"local": "Senara",
+"visitante": "Escuela C.B. Moratalaz",
+"titulo": "Senara vs Escuela C.B. Moratalaz. Cadete Femenino"
+},
+{
+"id": 2848,
+"local": "Mahouníficas",
+"visitante": "Pradolongo",
+"titulo": "Mahouníficas vs Pradolongo. Senior Femenino"
+},
+{
+"id": 2849,
+"local": "Macacos Iv",
+"visitante": "L.A. Prospe",
+"titulo": "Macacos Iv vs L.A. Prospe. Senior Masculino"
+},
+{
+"id": 2854,
+"local": "Montekon",
+"visitante": "Prusia",
+"titulo": "Montekon vs Prusia. Senior Masculino"
+},
+{
+"id": 2855,
+"local": "Stella Maris",
+"visitante": "Cde Vicálvaro Baloncesto",
+"titulo": "Stella Maris vs Cde Vicálvaro Baloncesto. Cadete Masculino"
+},
+{
+"id": 2858,
+"local": "Ism",
+"visitante": "Ceipso Jose De Echegaray Vpm",
+"titulo": "Ism vs Ceipso Jose De Echegaray Vpm. Infantil Femenino"
+},
+{
+"id": 2859,
+"local": "San Jose De Begoña",
+"visitante": "Richmond",
+"titulo": "San Jose De Begoña vs Richmond. Alevin Mixto"
+},
+{
+"id": 2860,
+"local": "Fundación Balia",
+"visitante": "Efbm Fernando Martín B",
+"titulo": "Fundación Balia vs Efbm Fernando Martín B. Juvenil Masculino"
+},
+{
+"id": 2861,
+"local": "Cde Las Minas A",
+"visitante": "Cde Extrasport Moratalaz",
+"titulo": "Cde Las Minas A vs Cde Extrasport Moratalaz. Infantil Masculino"
+},
+{
+"id": 2865,
+"local": "Adef \"Health&Life\"",
+"visitante": "Velilla",
+"titulo": "Adef \"Health&Life\" vs Velilla. Senior Femenino"
+},
+{
+"id": 2867,
+"local": "Halcones Negro",
+"visitante": "Estudiantes International School B",
+"titulo": "Halcones Negro vs Estudiantes International School B. Benjamin Mixto"
+},
+{
+"id": 2873,
+"local": "Rc Santa Isabel",
+"visitante": "Escuelas Aguirre",
+"titulo": "Rc Santa Isabel  vs Escuelas Aguirre. Benjamin Mixto"
+},
+{
+"id": 2875,
+"local": "Sbc Pandas",
+"visitante": "Unión Villanueva",
+"titulo": "Sbc Pandas vs Unión Villanueva. Senior Femenino"
+},
+{
+"id": 2876,
+"local": "Cadete Cd Las Tablas",
+"visitante": "Efbm Fernando Martín",
+"titulo": "Cadete Cd Las Tablas vs Efbm Fernando Martín . Cadete Masculino"
+},
+{
+"id": 2877,
+"local": "Colegio El Prado D",
+"visitante": "Ramiro De Maeztu",
+"titulo": "Colegio El Prado D vs Ramiro De Maeztu. Alevin Mixto"
+},
+{
+"id": 2878,
+"local": "Ef Cha A",
+"visitante": "Chamartín Vergara A",
+"titulo": "Ef Cha A vs Chamartín Vergara A. Infantil Masculino"
+},
+{
+"id": 2879,
+"local": "Rc Santa Isabel",
+"visitante": "Ies Fortuny",
+"titulo": "Rc Santa Isabel vs Ies Fortuny. Infantil Masculino"
+},
+{
+"id": 2880,
+"local": "Club Aguirre",
+"visitante": "Ics Infantil Baloncesto",
+"titulo": "Club Aguirre vs Ics Infantil Baloncesto. Infantil Masculino"
+},
+{
+"id": 2881,
+"local": "Ies Larra 2",
+"visitante": "Manzanares Naranja",
+"titulo": "Ies Larra 2 vs Manzanares Naranja. Infantil Femenino"
+},
+{
+"id": 2882,
+"local": "Rayo Toro Loco",
+"visitante": "Zaza Fc",
+"titulo": "Rayo Toro Loco vs Zaza Fc. Senior Masculino"
+},
+{
+"id": 2883,
+"local": "Voley Perales Cadete Rojo",
+"visitante": "C.D.E Parque Pradolongo",
+"titulo": "Voley Perales Cadete Rojo  vs C.D.E Parque Pradolongo. Cadete Femenino"
+},
+{
+"id": 2884,
+"local": "Las Chicas Del Aro",
+"visitante": "Cervantes-Kaotikas",
+"titulo": "Las Chicas Del Aro vs Cervantes-Kaotikas. Senior Femenino"
+},
+{
+"id": 2888,
+"local": "C.B. Pizarro Campus Ávila",
+"visitante": "Club Deportivo Las Tablas",
+"titulo": "C.B. Pizarro Campus Ávila vs Club Deportivo Las Tablas. Juvenil Masculino"
+},
+{
+"id": 2889,
+"local": "Ciudad De Guadalajara - Almeda De Osuna",
+"visitante": "Distrito Olimpico Alvarrez",
+"titulo": "Ciudad De Guadalajara - Almeda De Osuna vs Distrito Olimpico Alvarrez. Prebenjamin Mixto"
+},
+{
+"id": 2890,
+"local": "Sureste Warriors",
+"visitante": "Los Dracukeros",
+"titulo": "Sureste Warriors vs Los Dracukeros. Senior Masculino"
+},
+{
+"id": 2891,
+"local": "Gsd Moratalaz",
+"visitante": "Cv Getafe Morado",
+"titulo": "Gsd Moratalaz vs Cv Getafe Morado. Alevin Mixto"
+},
+{
+"id": 2892,
+"local": "A.D. Nueva Castilla \"B\"",
+"visitante": "Arcangel A",
+"titulo": "A.D. Nueva Castilla \"B\" vs Arcangel A. Alevin Mixto"
+},
+{
+"id": 2894,
+"local": "Cd Caldeiro",
+"visitante": "Cd Newman B",
+"titulo": "Cd Caldeiro vs Cd Newman B. Juvenil Femenino"
+},
+{
+"id": 2895,
+"local": "Madrid Villa De Vallecas Amarillo",
+"visitante": "Cde Vicálvaro Baloncesto Verde",
+"titulo": "Madrid Villa De Vallecas Amarillo vs Cde Vicálvaro Baloncesto Verde. Infantil Femenino"
+}
+]

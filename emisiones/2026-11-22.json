@@ -1,0 +1,548 @@
+[
+{
+"id": 2651,
+"local": "Fecha Libre",
+"visitante": "Dallas Mahouvericks",
+"titulo": "Fecha Libre vs Dallas Mahouvericks. Senior Masculino"
+},
+{
+"id": 2652,
+"local": "Defensor Lima",
+"visitante": "Contigo Peru Voleibol",
+"titulo": "Defensor Lima  vs  Contigo Peru Voleibol. Senior Femenino"
+},
+{
+"id": 2653,
+"local": "Cb Pozuelo",
+"visitante": "Quisqueya",
+"titulo": "Cb Pozuelo vs Quisqueya. Senior Masculino"
+},
+{
+"id": 2671,
+"local": "Los Isotopos",
+"visitante": "Maestros Camiseros",
+"titulo": "Los Isotopos vs Maestros Camiseros. Senior Masculino"
+},
+{
+"id": 2673,
+"local": "Warriors Del Pilar. C.B.F.",
+"visitante": "Assasins Kroketas",
+"titulo": "Warriors Del Pilar. C.B.F. vs Assasins Kroketas. Senior Masculino"
+},
+{
+"id": 2675,
+"local": "Rex Eterna",
+"visitante": "Macabi De Levantar",
+"titulo": "Rex Eterna vs Macabi De Levantar. Senior Masculino"
+},
+{
+"id": 2678,
+"local": "Cde Sevilla La Nueva Sport",
+"visitante": "Sparks",
+"titulo": "Cde Sevilla La Nueva Sport vs Sparks. Senior Femenino"
+},
+{
+"id": 2691,
+"local": "Casi 5",
+"visitante": "Obispo Perelló",
+"titulo": "Casi 5 vs Obispo Perelló. Senior Femenino"
+},
+{
+"id": 2692,
+"local": "Macetas Team",
+"visitante": "Flakitos Vnz",
+"titulo": "Macetas Team vs Flakitos Vnz. Senior Masculino"
+},
+{
+"id": 2694,
+"local": "Club Volibol Fuente El Saz",
+"visitante": "Auropitos Vc",
+"titulo": "Club Volibol Fuente El Saz vs Auropitos Vc. Senior Mixto"
+},
+{
+"id": 2695,
+"local": "Denver Pakets",
+"visitante": "Sin Compromiso Actium",
+"titulo": "Denver Pakets vs Sin Compromiso Actium. Senior Masculino"
+},
+{
+"id": 2696,
+"local": "Calentito Pa Casa",
+"visitante": "Booyah Basket",
+"titulo": "Calentito Pa Casa vs Booyah Basket. Senior Masculino"
+},
+{
+"id": 2697,
+"local": "Parque Amarillo Fs",
+"visitante": "Peaky Blinders",
+"titulo": "Parque Amarillo Fs vs Peaky Blinders. Senior Masculino"
+},
+{
+"id": 2698,
+"local": "Doce Monos",
+"visitante": "Un Domingo Cualquiera",
+"titulo": "Doce Monos vs Un Domingo Cualquiera. Senior Masculino"
+},
+{
+"id": 2699,
+"local": "Batacazo",
+"visitante": "Slam Drunk",
+"titulo": "Batacazo vs Slam Drunk. Senior Masculino"
+},
+{
+"id": 2702,
+"local": "Tucutucu Singer Basket",
+"visitante": "Maristas Chamberí",
+"titulo": "Tucutucu Singer Basket vs Maristas Chamberí . Cadete Masculino"
+},
+{
+"id": 2705,
+"local": "Yermo Iv",
+"visitante": "Escuela Barrio Del Pilar",
+"titulo": "Yermo Iv vs Escuela Barrio Del Pilar. Cadete Masculino"
+},
+{
+"id": 2706,
+"local": "Club Deportivo Newman",
+"visitante": "Cd Caldeiro B",
+"titulo": "Club Deportivo Newman vs Cd Caldeiro B. Senior Femenino"
+},
+{
+"id": 2707,
+"local": "Bayern Munis",
+"visitante": "Xymaho Fc",
+"titulo": "Bayern Munis vs Xymaho Fc. Senior Masculino"
+},
+{
+"id": 2711,
+"local": "Sporting De Saconia",
+"visitante": "Dosa",
+"titulo": "Sporting De Saconia vs Dosa. Juvenil Masculino"
+},
+{
+"id": 2716,
+"local": "Gms Lse",
+"visitante": "Cd Oroquieta Espinillo",
+"titulo": "Gms Lse vs Cd Oroquieta Espinillo. Senior Mixto"
+},
+{
+"id": 2718,
+"local": "Fresquitas Voley Club",
+"visitante": "Asuncion",
+"titulo": "Fresquitas Voley Club vs  Asuncion . Senior Femenino"
+},
+{
+"id": 2722,
+"local": "Obispo Perelló B",
+"visitante": "Redecillas",
+"titulo": "Obispo Perelló B vs Redecillas. Senior Femenino"
+},
+{
+"id": 2723,
+"local": "Hacienda Fc",
+"visitante": "Trujo Fc",
+"titulo": "Hacienda Fc vs Trujo Fc. Senior Masculino"
+},
+{
+"id": 2724,
+"local": "Nabstars",
+"visitante": "Modri Basket",
+"titulo": "Nabstars vs Modri Basket. Senior Masculino"
+},
+{
+"id": 2726,
+"local": "Abaco Cadete A",
+"visitante": "Abaco Voleybol Cadete C",
+"titulo": "Abaco Cadete A vs Abaco Voleybol Cadete C. Cadete Femenino"
+},
+{
+"id": 2727,
+"local": "Voleibol Usera",
+"visitante": "Adc San Fermin Rojo",
+"titulo": "Voleibol Usera vs Adc San Fermin Rojo. Infantil Femenino"
+},
+{
+"id": 2730,
+"local": "Vp Madrid Blanco",
+"visitante": "Voleibol Hispano Usera",
+"titulo": "Vp Madrid Blanco vs Voleibol Hispano Usera. Senior Mixto"
+},
+{
+"id": 2732,
+"local": "Calasancio",
+"visitante": "Rebotadas",
+"titulo": "Calasancio vs Rebotadas. Senior Femenino"
+},
+{
+"id": 2734,
+"local": "Die Mannschaft",
+"visitante": "Atletico De Barril",
+"titulo": "Die Mannschaft vs Atletico De Barril. Senior Masculino"
+},
+{
+"id": 2735,
+"local": "Arruspuchuchu Fc",
+"visitante": "Hundir La Flota",
+"titulo": "Arruspuchuchu Fc vs Hundir La Flota. Senior Masculino"
+},
+{
+"id": 2736,
+"local": "Cd Caldeiro A",
+"visitante": "Adc San Fermin",
+"titulo": "Cd Caldeiro A vs Adc San Fermin. Senior Femenino"
+},
+{
+"id": 2737,
+"local": "C.D.E. Valderas. Doc",
+"visitante": "Vp Madrid Negro",
+"titulo": "C.D.E. Valderas. Doc vs Vp Madrid Negro. Senior Mixto"
+},
+{
+"id": 2738,
+"local": "Ai Tun Tun",
+"visitante": "Singer Basket",
+"titulo": "Ai Tun Tun vs Singer Basket. Senior Masculino"
+},
+{
+"id": 2739,
+"local": "Vba",
+"visitante": "Envenena2",
+"titulo": "Vba vs Envenena2. Senior Masculino"
+},
+{
+"id": 2741,
+"local": "Gmadrid Marsha",
+"visitante": "Toros Team",
+"titulo": "Gmadrid Marsha vs Toros Team. Senior Masculino"
+},
+{
+"id": 2745,
+"local": "Tumanjaru",
+"visitante": "Losmaskbrones",
+"titulo": "Tumanjaru vs Losmaskbrones. Senior Masculino"
+},
+{
+"id": 2750,
+"local": "La Concentración",
+"visitante": "Las Mochas",
+"titulo": "La Concentración vs Las Mochas. Senior Femenino"
+},
+{
+"id": 2752,
+"local": "Chopitos",
+"visitante": "Abuelakers",
+"titulo": "Chopitos vs Abuelakers. Senior Masculino"
+},
+{
+"id": 2753,
+"local": "Upink",
+"visitante": "Piratas Ff",
+"titulo": "Upink vs Piratas Ff. Senior Masculino"
+},
+{
+"id": 2754,
+"local": "Los Tercios Fc",
+"visitante": "Atlético Cbd",
+"titulo": "Los Tercios Fc vs Atlético Cbd. Senior Masculino"
+},
+{
+"id": 2759,
+"local": "Club Futsal Esperanza",
+"visitante": "Sporting De Bareto",
+"titulo": "Club Futsal Esperanza vs Sporting De Bareto. Senior Masculino"
+},
+{
+"id": 2760,
+"local": "Macaconas United",
+"visitante": "Vp Madrid Negro",
+"titulo": "Macaconas United vs Vp Madrid Negro. Senior Femenino"
+},
+{
+"id": 2763,
+"local": "Rayo Baston F.C.",
+"visitante": "Sp Zenit",
+"titulo": "Rayo Baston F.C. vs Sp Zenit. Senior Masculino"
+},
+{
+"id": 2772,
+"local": "G.Madrid Paquita",
+"visitante": "Tumami Heat",
+"titulo": "G.Madrid Paquita vs Tumami Heat. Senior Masculino"
+},
+{
+"id": 2773,
+"local": "Gms Delta",
+"visitante": "Cv Leganés A",
+"titulo": "Gms Delta vs Cv Leganés A. Senior Mixto"
+},
+{
+"id": 2774,
+"local": "Las Faraonas",
+"visitante": "Multicultural",
+"titulo": "Las Faraonas vs Multicultural. Senior Mixto"
+},
+{
+"id": 2775,
+"local": "Cerveceros  Anónimos",
+"visitante": "Bajo Perros",
+"titulo": "Cerveceros  Anónimos vs Bajo Perros. Senior Masculino"
+},
+{
+"id": 2776,
+"local": "Novavoltios",
+"visitante": "Gms Sigma",
+"titulo": "Novavoltios vs Gms Sigma. Senior Mixto"
+},
+{
+"id": 2777,
+"local": "Jvk",
+"visitante": "Pollos Calientes",
+"titulo": "Jvk vs Pollos Calientes. Senior Masculino"
+},
+{
+"id": 2783,
+"local": "Indalo",
+"visitante": "Mamba Vikings",
+"titulo": "Indalo vs Mamba Vikings . Senior Masculino"
+},
+{
+"id": 2787,
+"local": "Blanca De Castilla",
+"visitante": "Club Deportivo Las Tablas Elemental",
+"titulo": "Blanca De Castilla vs Club Deportivo Las Tablas Elemental. Cadete Masculino"
+},
+{
+"id": 2794,
+"local": "Basket Club Boadilla",
+"visitante": "Ubuntu",
+"titulo": "Basket Club Boadilla vs Ubuntu . Senior Masculino"
+},
+{
+"id": 2797,
+"local": "Dea",
+"visitante": "Puro Teatro",
+"titulo": "Dea vs Puro Teatro. Senior Masculino"
+},
+{
+"id": 2798,
+"local": "Lagerthas",
+"visitante": "Trap",
+"titulo": "Lagerthas vs Trap. Senior Femenino"
+},
+{
+"id": 2799,
+"local": "Pedro Moreno",
+"visitante": "Placitas Cb",
+"titulo": "Pedro Moreno vs Placitas Cb. Senior Masculino"
+},
+{
+"id": 2803,
+"local": "Cv Ciempozuelos",
+"visitante": "Arganblock",
+"titulo": "Cv Ciempozuelos vs Arganblock. Senior Mixto"
+},
+{
+"id": 2804,
+"local": "Escuela Deportiva Hcb",
+"visitante": "Volley Rivas-Vallecas",
+"titulo": "Escuela Deportiva Hcb vs Volley Rivas-Vallecas. Senior Mixto"
+},
+{
+"id": 2805,
+"local": "Cooperativa Los Leones",
+"visitante": "Cromañones Fc",
+"titulo": "Cooperativa Los Leones vs Cromañones Fc. Senior Masculino"
+},
+{
+"id": 2809,
+"local": "Insanos Desatados",
+"visitante": "Mistery Men",
+"titulo": "Insanos Desatados vs Mistery Men. Senior Masculino"
+},
+{
+"id": 2813,
+"local": "Basketematas",
+"visitante": "Adc Filipenses",
+"titulo": "Basketematas vs Adc Filipenses. Senior Femenino"
+},
+{
+"id": 2814,
+"local": "C.B Entrevías",
+"visitante": "Wildcats",
+"titulo": "C.B Entrevías vs Wildcats . Senior Masculino"
+},
+{
+"id": 2818,
+"local": "Guerreros",
+"visitante": "Club Voleibol Valdemoro Gamma",
+"titulo": "Guerreros vs Club Voleibol Valdemoro Gamma. Senior Mixto"
+},
+{
+"id": 2819,
+"local": "Mahouchester City",
+"visitante": "El Blóster",
+"titulo": "Mahouchester City vs El Blóster. Senior Masculino"
+},
+{
+"id": 2820,
+"local": "Onda Verde",
+"visitante": "Santo Domingo",
+"titulo": "Onda Verde vs Santo Domingo. Senior Masculino"
+},
+{
+"id": 2823,
+"local": "Forever Young",
+"visitante": "Revolution Aluche",
+"titulo": "Forever Young vs Revolution Aluche. Senior Femenino"
+},
+{
+"id": 2830,
+"local": "Cde Cfs Eurosiris",
+"visitante": "Avanti Fs",
+"titulo": "Cde Cfs Eurosiris vs Avanti Fs. Senior Masculino"
+},
+{
+"id": 2831,
+"local": "Malakito De Memphis",
+"visitante": "Shogun Fc",
+"titulo": "Malakito De Memphis vs Shogun Fc. Senior Masculino"
+},
+{
+"id": 2833,
+"local": "Espartanas",
+"visitante": "Vp Madrid Amarillo",
+"titulo": "Espartanas vs Vp Madrid Amarillo . Senior Femenino"
+},
+{
+"id": 2835,
+"local": "Grupo Kassandra",
+"visitante": "Talentos De Moratalaz",
+"titulo": "Grupo Kassandra  vs Talentos De Moratalaz. Senior Femenino"
+},
+{
+"id": 2836,
+"local": "Las Rebotonas",
+"visitante": "Kill Puff",
+"titulo": "Las Rebotonas vs Kill Puff. Senior Femenino"
+},
+{
+"id": 2838,
+"local": "Cdcebe",
+"visitante": "Troula 2.0",
+"titulo": "Cdcebe vs Troula 2.0. Senior Femenino"
+},
+{
+"id": 2840,
+"local": "Los Otxoa",
+"visitante": "Kaliwebos",
+"titulo": "Los Otxoa vs Kaliwebos. Senior Mixto"
+},
+{
+"id": 2850,
+"local": "Sporting Brugal",
+"visitante": "Sh-68",
+"titulo": "Sporting Brugal vs Sh-68. Senior Masculino"
+},
+{
+"id": 2851,
+"local": "Distrito Carabanchel",
+"visitante": "Sanvi",
+"titulo": "Distrito Carabanchel vs Sanvi. Senior Femenino"
+},
+{
+"id": 2852,
+"local": "Golfinho Fc",
+"visitante": "A.C Milan Gostino",
+"titulo": "Golfinho Fc vs A.C Milan Gostino. Senior Masculino"
+},
+{
+"id": 2853,
+"local": "Willgriggs Fc",
+"visitante": "Viñagrande",
+"titulo": "Willgriggs Fc vs Viñagrande, C.F.. Senior Masculino"
+},
+{
+"id": 2856,
+"local": "Panasymankos",
+"visitante": "Raptors",
+"titulo": "Panasymankos vs Raptors. Senior Masculino"
+},
+{
+"id": 2857,
+"local": "Mahouvelous",
+"visitante": "Villanos De Kastilla",
+"titulo": "Mahouvelous vs Villanos De Kastilla. Senior Masculino"
+},
+{
+"id": 2863,
+"local": "Geopardos",
+"visitante": "Utah Jizz",
+"titulo": "Geopardos vs Utah Jizz. Senior Masculino"
+},
+{
+"id": 2864,
+"local": "Los Kikis",
+"visitante": "The Boys",
+"titulo": "Los Kikis vs The Boys. Senior Masculino"
+},
+{
+"id": 2866,
+"local": "Salida De Emergencia",
+"visitante": "Distrito 22",
+"titulo": "Salida De Emergencia vs Distrito 22. Senior Femenino"
+},
+{
+"id": 2868,
+"local": "Cinco Latinos",
+"visitante": "Bblegazpi",
+"titulo": "Cinco Latinos vs Bblegazpi. Senior Masculino"
+},
+{
+"id": 2869,
+"local": "Los Cansinos",
+"visitante": "Inter Entrevias Fs",
+"titulo": "Los Cansinos vs Inter Entrevias Fs. Senior Masculino"
+},
+{
+"id": 2870,
+"local": "Guerreras",
+"visitante": "M2M Ciudad Getafe",
+"titulo": "Guerreras vs M2M Ciudad Getafe. Senior Femenino"
+},
+{
+"id": 2871,
+"local": "Paralimpiakos",
+"visitante": "Recreativo De Juerga",
+"titulo": "Paralimpiakos vs Recreativo De Juerga. Senior Masculino"
+},
+{
+"id": 2874,
+"local": "Obispo Perelló A",
+"visitante": "Vp Madrid Blanco",
+"titulo": "Obispo Perelló A vs Vp Madrid Blanco. Senior Femenino"
+},
+{
+"id": 2885,
+"local": "Maneke Nekos",
+"visitante": "Tropa Goofy",
+"titulo": "Maneke Nekos vs Tropa Goofy. Senior Masculino"
+},
+{
+"id": 2886,
+"local": "Frikcd",
+"visitante": "Los Dramones",
+"titulo": "Frikcd vs Los Dramones. Senior Masculino"
+},
+{
+"id": 2887,
+"local": "C.B Claret Madrid",
+"visitante": "Supercolegas Del Infierno",
+"titulo": "C.B Claret Madrid vs Supercolegas Del Infierno. Senior Masculino"
+},
+{
+"id": 2893,
+"local": "Santa Rita",
+"visitante": "Adc San Fermin",
+"titulo": "Santa Rita  vs Adc San Fermin. Cadete Femenino"
+}
+]
