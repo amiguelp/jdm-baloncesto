@@ -19,7 +19,8 @@ en esa página, en *Assets*, el archivo `jdm-baloncesto-vX.Y.Z.apk`.
 - **Retransmisión** del partido y grabación, cuando el Ayuntamiento lo emite (pabellón de Las Cruces).
 - **🎙️ Crónica** de cada partido poco después de terminar: para leer, escuchar con la voz del móvil y
   compartir por WhatsApp.
-- **Clasificación** al día (con los resultados de la Federación) y la oficial del Ayuntamiento.
+- **Clasificación** al día (con los resultados de la Federación) y la oficial del Ayuntamiento; al tocar un
+  equipo, sus partidos jugados y los que le quedan.
 - **Calendario** opcional: un evento por partido en tu calendario.
 - **Se actualiza sola**: cuando hay versión nueva, la app lo avisa y se instala con dos toques.
 
