@@ -54,7 +54,7 @@ recibiendo los avisos, el marcador y las crónicas.
 
 ## Batería
 
-Para que los avisos lleguen a su hora, en *Ajustes → Batería* de la app toca **«Permitir en segundo plano»**
+Para que los avisos lleguen a su hora, en *Ajustes → Batería* de la app toca **«Permitir»** (o, al instalarla, en «Segundo plano»)
 (o en los ajustes del móvil: *Aplicaciones → JDM Baloncesto → Batería → Sin restricciones*). La app solo
 se despierta unos segundos al día; no gasta batería apreciable.
 
