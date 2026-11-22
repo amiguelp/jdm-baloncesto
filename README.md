@@ -20,7 +20,7 @@ en esa página, en *Assets*, el archivo `jdm-baloncesto-vX.Y.Z.apk`.
 - **🎙️ Crónica** de cada partido poco después de terminar: para leer, escuchar con la voz del móvil y
   compartir por WhatsApp.
 - **Clasificación** al día (con los resultados de la Federación) y la oficial del Ayuntamiento; al tocar un
-  equipo, sus partidos jugados y los que le quedan.
+  equipo, sus partidos jugados y los que le quedan, con la grabación de los que emite el Ayuntamiento.
 - **Calendario** opcional: un evento por partido en tu calendario.
 - **Se actualiza sola**: cuando hay versión nueva, la app lo avisa y se instala con dos toques.
 
