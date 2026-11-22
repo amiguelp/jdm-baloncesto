@@ -2,6 +2,8 @@
 # de los partidos terminados de los equipos de scripts/cronica/equipos.json (en el repositorio privado del
 # código) y la publica en la rama «cronicas» de este repositorio, de donde la descargan las apps.
 # Sin nombres de jugadores: solo dorsales; cada móvil pone los nombres.
+# Además archiva una vez al día la agenda del portal de streaming (emisiones/AAAA-MM-DD.json), que solo deja
+# consultar 7 días atrás, para que las apps instaladas después encuentren las grabaciones antiguas.
 # Secrets: CODIGO_DEPLOY_KEY, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN.
 name: Crónicas
 on:
@@ -62,6 +64,10 @@ jobs:
           else
             git worktree add --orphan -b cronicas salida
           fi
+
+      - name: Archivar emisiones (una vez al día)
+        if: steps.listo.outputs.ok == 'true'
+        run: python3 codigo/scripts/cronica/emisiones.py salida || echo "::warning::No se pudieron archivar las emisiones"
 
       - name: Escribir crónicas
         if: steps.listo.outputs.ok == 'true'
