@@ -1,0 +1,14 @@
+{
+ "version": 1,
+ "equipo": "BJC",
+ "categoria": "CADETE MASCULINO",
+ "fecha": "2026-11-28",
+ "local": "BJC",
+ "visitante": "Revolution Aluche",
+ "tanteoLocal": 93,
+ "tanteoVisitante": 9,
+ "texto": "El partido entre BJC y Revolution Aluche fue un encuentro muy desequilibrado desde el principio. En el primer cuarto, nuestro equipo se adelantó con una ventaja de 19-2, gracias a la buena actuación de {L30}, que anotó 16 puntos en todo el partido, {L4}, con 13 puntos, y {L15}, que también consiguió 13 puntos.\n\nA medida que avanzaba el partido, la diferencia se hizo cada vez más grande. En el segundo cuarto, BJC anotó 26 puntos, mientras que Revolution Aluche solo logró 3, lo que dejó el marcador en 45-5. {L31} y {L10} también destacaron en el partido, anotando 12 y 10 puntos respectivamente. La máxima ventaja de BJC llegó a ser de 84 puntos, lo que muestra la gran diferencia entre los dos equipos.\n\nEn el tercer cuarto, BJC siguió aumentando su ventaja, anotando 20 puntos sin que Revolution Aluche lograra anotar ninguno. El cuarto cuarto no fue diferente, y BJC terminó ganando el partido con un resultado final de 93-9. {L30}, {L4} y {L15} fueron los máximos anotadores de BJC, demostrando su habilidad en la cancha. El máximo anotador de Revolution Aluche fue {V0}, con 4 puntos.",
+ "origen": "ia",
+ "modelo": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+ "generada": "2026-11-28T13:13:30+00:00"
+}
