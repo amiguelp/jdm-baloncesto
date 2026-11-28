@@ -16,6 +16,7 @@ on:
         required: false
 permissions:
   contents: write
+  actions: write   # relanzarse a sí mismo (ver abajo)
 concurrency:
   group: cronicas
 jobs:
@@ -77,9 +78,9 @@ jobs:
           FECHA: ${{ inputs.fecha }}
         run: |
           if [ -n "$FECHA" ]; then
-            python3 codigo/scripts/cronica/generar.py salida --publicar --forzar "$FECHA"
+            python3 codigo/scripts/cronica/generar.py salida --publicar --forzar "$FECHA" --relanzar "$RUNNER_TEMP/relanzar"
           else
-            python3 codigo/scripts/cronica/generar.py salida --publicar
+            python3 codigo/scripts/cronica/generar.py salida --publicar --relanzar "$RUNNER_TEMP/relanzar"
           fi
 
       - name: Publicar
@@ -90,3 +91,15 @@ jobs:
           if git diff --cached --quiet; then echo "Nada nuevo"; exit 0; fi
           git commit -m "Crónicas $(date -u +%Y-%m-%dT%H:%M)"
           git push origin cronicas
+
+      # GitHub no lanza las ejecuciones programadas cada hora (a veces una o dos al día): si hay un partido en las
+      # próximas 30 h y este trabajo no llega a vigilarlo (dura como mucho 6 h), se relanza. Sin coste: repositorio público.
+      - name: Relanzar para vigilar el próximo partido
+        if: always() && steps.listo.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f "$RUNNER_TEMP/relanzar" ]; then
+            echo "Próximo partido: $(cat "$RUNNER_TEMP/relanzar")"
+            gh workflow run cronicas.yml -R "$GITHUB_REPOSITORY" --ref main
+          fi
